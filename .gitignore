@@ -1,3 +1,4 @@
 /vendor/
+/cacheTwig/
 /logs/*
 !/logs/README.md
