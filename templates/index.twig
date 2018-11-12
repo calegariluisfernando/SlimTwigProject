@@ -31,6 +31,7 @@
 
         {% if name %}
             <h2>Hello {{ name|e }}!</h2>
+            <pre>{{ dump(name) }}</pre>
         {% else %}
             <p>Try <a href="http://www.slimframework.com">SlimFramework</a></p>
         {% endif %}

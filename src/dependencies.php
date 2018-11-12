@@ -6,7 +6,7 @@ $container = $app->getContainer();
 // Register Twig View helper
 $container['view'] = function ($c) {
     $settings = $c->get('settings')['renderer'];
-    $view = new \Slim\Views\Twig($settings['template_path'], ['cache' => false]);
+    $view = new \Slim\Views\Twig($settings['template_path'], ['cache' => false, 'debug' => true]);
 
     // Instantiate and add Slim specific extension
     $router = $c->get('router');
