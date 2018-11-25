@@ -2,7 +2,7 @@
     "name": "slim/slim-skeleton",
     "description": "A Slim Framework skeleton application for rapid development",
     "keywords": ["microframework", "rest", "router", "psr7"],
-    "homepage": "https://www.futfanatics.com.br",
+    "homepage": "https://github.com/calegariluisfernando/SlimTwigProject",
     "license": "MIT",
     "authors": [
         {
